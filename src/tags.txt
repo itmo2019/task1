@@ -1,0 +1,20 @@
+1) body
+2) header
+3) h1
+4) h2
+5) main
+6) article
+7) h3
+8) p
+9) span
+10)br
+11)ol
+12)li
+13)div
+14)pre
+15)img
+16)footer
+17)ul
+18)address
+19)a
+20)time

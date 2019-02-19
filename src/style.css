@@ -1,0 +1,119 @@
+h2 {
+    font-family: monospace;
+}
+
+#contacts {
+    border: 1px solid black;
+}
+
+.title {
+    font-family: serif;
+}
+
+a:link {
+    color: darkblue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: crimson;
+}
+
+article::first-letter {
+    color: crimson;
+}
+
+p::first-line {
+    font-style: italic;
+}
+
+#name {
+    font-style: italic;
+}
+
+#contacts_field {
+    font-weight: bold;
+}
+
+.contacts-part {
+    text-decoration: underline;
+}
+
+.main_text {
+    border-bottom: 2px dashed green;
+    font-size: large;
+    margin-bottom: 50px;
+}
+
+#first {
+    text-align: left;
+    font-style: oblique;
+    text-indent: 10px;
+}
+
+#second {
+    text-align: right;
+    font-style: italic;
+}
+
+#third {
+    text-align: center;
+}
+
+#fourth {
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+main {
+    margin-bottom: 5px;
+}
+
+#text-main {
+    border: 3px solid blue;
+}
+
+#pictures-main {
+    border: 3px solid crimson;
+}
+
+.header {
+    text-align: center;
+    font-weight: lighter;
+}
+
+.header::first-letter {
+    font-weight: bold;
+    color: red;
+}
+
+#main_header {
+    font-weight: lighter;
+    color: cadetblue;
+}
+
+.title {
+    font-size: x-large;
+    font-style: oblique;
+    font-family: monospace;
+}
+
+#final_list {
+    font-family: common-ligatures serif;
+    letter-spacing: 3px;
+}
+
+.pic {
+    text-align: center;
+}
+
+.front {
+    font-weight: bolder;
+    font-size: large;
+    font-family: monospace;
+    background-color: beige;
+}
