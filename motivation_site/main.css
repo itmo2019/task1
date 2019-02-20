@@ -1,0 +1,99 @@
+
+body {
+  background-color: #FDEBD0;
+}
+
+header > h1 {
+  text-align: center;
+}
+
+#logo-img {
+  display: block;
+  margin: auto;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.card {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-family: sans-serif;
+
+  background-color: white;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25), 
+              0 8px 16px 0 rgba(0, 0, 0, 0.25);
+}
+
+.programming-language {
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#js-motivation-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#javascript-motivation {
+  flex: 1;
+  max-width: calc(95% - 310px);
+}
+
+.javascript-code {
+  flex: 1;
+  margin-left: 10px;
+  padding: 3px;
+  padding-top: 10px !important;
+  background-color: lightgrey;
+  color: darkblue;
+  max-width: 310px;
+}
+
+.red-text {
+  color: red;
+}
+
+footer {
+  padding: 10px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+#contacts {
+  border-radius: 10px;
+  border: 5px dashed lightblue;
+  padding: 6px;
+}
+
+
+.card a:hover {
+    color: red;
+}
+
+.card a:visited {
+  color: purple;
+}
+
+.green-text {
+  color: green;
+}
+
+.blue-text {
+  color: darkblue;
+}
+
+.section-title {
+  text-align: center;
+}
