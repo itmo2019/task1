@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<html>
+    <title>Эссе</title>
+
+    <head>
+        <link rel=stylesheet href=rules.css charset=utf-8>
+    </head>
+
+    <body style="background: black">
+            <section id=item0 class=item>
+                <header class=bar>text #0</header>
+                <article class=content>
+                    <header onclick="fold0()">click me</header>
+                    <article>
+                        <h3>Предисловие</h3><hr>
+                        <p>О фронтэнде у меня очень поверхностные знания. Кроме <code>js</code>, 
+                            <del>для этой поделки</del> для этого эссе пришлось гуглить решительно все.
+                            Эссе не вполне серьезное, но на набросках все равно представлялось лучше =/</p>
+                        <p>Пытался избежать - но все равно какой-то колхоз, и <abbr title="frames per second">FPS</abbr>
+                            иногда падает, хотя в последнем не обязательно <i>моя</i> вина.
+                            И да - это скорее демка, т.к. выглядит оно все равно лучше, чем доносит информацию.</p>
+                    </article>
+                </article>
+                <button class=response onclick="report0()">
+                    <span class=cat-word>Котэ</span>, как тебе здешняя верстка?
+                </button>
+            </section>
+            <section id=item1 class=item>
+                <header class=bar>text #1</header>
+                <article class=content>
+                    <header onclick="fold1()">Чего я жду от курса фронтэнда</header>
+                    <article>
+                        <p>Я часто на <a href="https://habr.com">Хабре</a>, <a href="https://pikabu.ru">Пикабу</a>
+                            видел диспуты и мемасы фронтэндеров: про <code>React</code>, <code>Angular</code>
+                            и подобные, и никогда их не понимал, но начинал осознавать какой большой пласт 
+                            IT-шных знаний проходит мимо меня. А фронтэнд прошел слишком длинный и извилистый путь, 
+                            чтобы его можно было изучать самостоятельно.</p>
+                        <p>Я ожидаю от курса, что после его прохождения приближусь к статусу «full-stack разработчика».
+                            Сложно сказать насколько это действительно полезно.</p>
+                    </article>
+                </article>
+                <button class=response onclick="report1()">
+                    <span class=cat-word>Котэ</span>, чего ожидать от курса?
+                </button>
+            </section>
+            <section id=item2 class=item>
+                <header class=bar>text #2</header>
+                <article class=content>
+                    <header onclick="fold2()">Еще текст</header>
+                    <article>
+                        <p>Не знаю о чем еще писать. Мысль кончилась, а нужно до нормы еще 1 тег <code>html</code> 
+                            и штук 20 правил <code>css</code>.</p>
+                    </article>
+                </article>
+                <button class=response onclick="report2()">
+                    <span class=cat-word>Котэ</span>, что скажешь?
+                </button>
+            </section>
+            <section id=item3 class=item>
+                <header class=bar>text #3</header>
+                <article class=content>
+                    <header onclick="fold3()">sample text</header>
+                    <article>
+                        Вот еще котик: <br>
+                        <pre>
+#ZmoowXZZXoaoooooooouuuuuuoowoowuuouuwuwuwawuwwowoa.. ....... . .. ...... ...
+#ZZZ#ZUZ#Z##Z########U###########mmmmm#mmmmmmBmBZlI( ....... . .... .... ....
+#XXXXXXZXXXXZXXXXXXXXZXZZZZZZZZZUZ#Z##Z##U#####X|ii|;....... .. .. ...... . .
+####################mm#mmmmmmmmmmmmmmmmmmmmmmm#(ivI|: ... ... . ... .... . ..
+##U####################*{3##mmmmmmmBmBmBmmBmmB1|nni=;....... ...... ..... ...
+#XZZZZZZZZUZZZUZZUZ#Z#2=|||X################mZ=vnnv>owassiss,;.:::.;;...-.-.=
+ZUZ#Z#ZUZ#ZZZ#ZZZZZZZZZ=>li|SZZZZ#Z#Z#Z#####Z(ino1>=d#Z#Z##Z#osii%siavvauavad
+2o2oooo2ooo22ooo2o2o2oo=+>ii|3o22o2222222222e|vnnl|=3XXXXXXX22noooo2S2XXXXXXX
+XZXXZXZXZXZXXXXZXZXXZXZc=|ivv|IYXXXZXYY!?YmX}=vons>+mZ#Z#Z#ZZXXSSXXXXZZ#UZUZ#
+#ZZZUZZUZUZUZ#ZZ#ZZ#ZUZC:=ilvl>>+vvsvv||l=->=>v2oXv|###m#m###ZZZXZZZ#mmmmmmmm
+ZXZZXZZZXZZXZXZZZXZZZXZZ;:=I*iI}*!!?!!1owwoovii|++{>3Z#Z#U#Z#ZZZZZZZ#Z#####U#
+ZZZZZZZZUZZZUZZZZZ#ZZZ#Zc:=i+||iii|ivauomwwa%s%iii(i3########Z###############
+#ZZ#Z#Z#ZZ#ZZZ#Z#ZZZ#ZZZh:|Il*llivvon2oSXZXS21Illi>>dm###############mmmm####
+XXXXXXXXXXXXXXXXXXXXXXXXX|vv1YY1vivvvIv3UVS1vn211I||#ZZZUZZZUZ#ZUZ#Z######U#U
+XSS2SS2SS2SSSSSSSSSSSSSS2oIllllIvvi1nonXooqqwovvvi|+)XZZXZZZXZXZXZXZXXXXXXXXX
+XXXXXXXZXXXXXXXXXXXXXXXXo}=vIssvoon2XnnonnXSoXU#qwaa=|S#Z#Z#UUUU#Z#####Z#Z#Z#
+ZXZXZXZXZXZXZXZXZXZXZXXnnnS2SolnXXnn2nv2onXXnnSSXX#mmi=S#ZUZZZZUZ#ZZZZUZ#Z#Z#
+ZXXZXZXe"!?XXZXZXZXZXXvIo2o2SSs{2X1n22vpnnXXonXS2XZ##ps=XZ#Z#U#ZZ#Z##UZ#Z#Z#Z
+XXZXX*::..:>XXXZXXZXXviuSn*?*!IuI1|IXonnX2XZZ2l|lIYX##pc)ZZZZZZ#ZUZZZZ#ZUZUZZ
+ZXXXe.:-.. :3XZXZXXX1>uo1iu}:..+l|=|1XooXXXmZi::>oonZ##X>dZ#Z#ZZ#Z#Z#UZUZUZZ#
+XX2+`  ....=dXXXXXZX%v2o%vX=-.];=s=||1noSXm#S>-.+YXnX###o3XZ#ZUZUZZ#ZZ#ZZ#Z#Z
+XX1...  ._saXXXXXZXns2SZz)Zc.:.:.>>=|I1oXXme3o;::uX>dX##mnX#ZZZ#ZZ#ZZ#ZZ#ZZUZ
+X2::=::.vZXXXXXXXX2vnoSXZa*os,;..=||||ivnZ#1|Yoo2SadSoSXZmoXZ#ZZUZZ#ZZ#ZUZ#ZU
+Xe-....)XXXXXXXXXXnvnnnvnXXoowa;:===>i|%Y*1l>vWZY*1vo2S2SXXX#ZZ#ZZ#ZZ#ZZUZZUZ
+X(..:..XXXXXXXXXXXvvIiill|i=++!==;:=v=i1s|vn%InIiiIn2SSSSSXXXZZZZ#ZZUZZ#ZZ#ZZ
+X==|:.)XXXXXXXXXXevvvi||+++=======:=s=|ve*+vonnn1nvvo2XXSXSSZZ#ZUZZZZZ#ZZ#ZZZ
+2=|~..]XXXXXXXXXXnnnIi|=|=|==+||s;:=1av|;=||%XS2XXooXSXXXXSSXZZZZZZ#ZUZZZZZZ#
+o=:...]XXXXXXXXXXvnvIii||=|=====i>.:=|+++=+ioZY1SX#XX2XXXXS2XXUZZ#ZZZZZZ#ZUZZ
+e:.;:.)SXXXXXXXXovvvi||i==|===+=vs;;+++==>u#Znuqwm##ZiZXXXS2SXZZZZZZUZUZZZZZU
+o==|:.:XXXSXXXXXevvl|||||i>+++|=oXX|===+>m###XXXX###2IXZZXXSSX#ZZUZZZZZZUZZUZ
+Xi=::::32XSXSSSSonvIi%IIvn%|=|+>#Z[;=a.=d#U##qZZ###mkldZXXXS2XZZZZZZUZZZZZZZZ
+Xc:==::=XXSSSSSXonnli>>|lv>=++=uZ2awZX>vXXZZ#ZZmZS#mkl3X*{XSSXZZZZZZZZZUZZ#ZZ
+Xo==:==:{XSSSSSSoonIv>;==|++==>#Z3ZZZ2iivXZZZUZZC|$WE>>e=vXS2XZZZZZZZZZZZZZZZ
+XXc:==:=={XXSSSSennvsI====++=|vXcZ2oXSnooXoXXZ#mzi]3m||>=dXS2XZZZZZZZUZZZZZZZ
+XSs===:=::{XSSSSonnnvvc==:>==|dovXXXXXvXZ#Z###mmmiiiX=>=vX2nSXZZZZZZZZZZZUZZZ
+X2Xc:==;:=:)nX2SonvlIvsv=;>>=vn2vXS21ll3XZ#Z##mmmoi|v==|d}vSnXXZZZZZZZZZZZZZZ
+XS2S>==:;::.=*XSonviiiins;)X(nnS3XSc|v>ii3#####mmhi>|;=++u}+>XZZZZZZZZZZZZZZZ
+S2X2a=;:;::::;+32vnvilvi%i)n|vI1v2nos>>nn3XXZ###m#l|=;==]}.=iZZZZZZZZZZZZZZZZ
+XS2XSc=::..:::.-Snnvl>1voo3n=vvcoXoXXonnovvnnX2XXX.>;===}.:ivZZXZZXZZZZZZZZZZ
+S2S2S2>:..-.... )oIi==+=}IvI=)ncXXXXXXoXXX*lnX}>:>=:==>=;..-]XZZZXZZZZZZZZZZZ
+22o22n1i>_i=i_i=%1ii|=:-:_===|+=I(=i=i>+++i=i==i::=:-:i.:..:]XSSSSSSXXXXXXXXX
+nnvvvIvvvvvvvvvvvvi=:====|;:;;:::=;=====i||===;==+-=_::::; =i|+|||||||+|||||i
+nnvvIvIIIIvlIIIIIIl=:+:;::=::=.::=:=|==-++-|=>==;. :::.=...>as>i|||||+++=+++|
+nvvvIIIIIIlIIIIIlli>.:=. :+=;::::..:;:=::=::=~:=:._:|:-:..=d#Zma|ii||||||||||
+nnvvvvIIIIvIIvIIvivn:|-....:-::::.:=;:==;:::==::::==~-..;=n#Z#Z#ziiiiiii|i|||
+nvvvIIIIIIllIllli||v(-.:=.:-.:;;..:=+;===;>:::.:--...;_+==dZ###mhiii|i||i||i|
+nvvvllllllllilii=++>v,:::;+: =;:.:_=:>+;::.:..:._;.::.+=]ZXX##mmiiiiiii|i||||
+nvvllllliliilii|==||vi;.::.::.....=::;=;=:..::::==:.=::|:I12nX###lIlliiiliili
+vvlliiiii|ii|i|+=:=|i|i::::.:...;..-==:=::=+;-::::;:.=>=iiis|vivlvvvvIvIIIlli
+Ililiiii||||++++==;=+===.::...:.-..-::=::=..=::.;===+==vIvvvnvnvvvvvvvvvvvvlI
+nnvIllii|||=+++++|+|=+|==:...:-:::=;.:=::=.==::=|;====lilillillllIIvIvllillll
+nvvIliii||++==========;;=;:...::..=::=,::::::==|===;=iiillIlIIlIIlIlIlIlliiil
+oonvvvIlii||+==;;;;;:::::::-::.:.=:`.::;:__;:::||>:=iiilvvnnnnnnnnvnvnvvvvvvI
+Soonnnvvvvlli||=+=;;::::::...-.;::::-:.:.==::===::-=lilvvnnnnnnnnvnvnvvvvvIlI
+So22ooooonnnvvvvvi|====::::. . ....:.:::-::==:::..:=vIvvnooo2oooooonnnvnvvvvv
+S2S2S2S2So22222oooooooavvsi_>___..:.......-::___sivuuoS2S2S2S2So222oooonnnnnn
+XXSS2S2222S2222S2S2SSS2SS2SSXXS222oXn2oo2XSXXXXZX2S2XXXSSSS2S2222ooononnnvnvv    
+                        </pre>
+                        <button onclick="toggle_cat()">Сотри как я могу<br> Хоба!</button>
+                    </article>
+                </article>
+                <button class=response onclick="report3()">
+                    <span class=cat-word>Котэ</span>, что скажешь?
+                </button>
+            </section>
+            <section id=item4 class=item>
+                <header class=bar>text #4</header>
+                <article class=content>
+                    <header onclick="fold4()">footer</header>
+                    <article>
+                        <footer>
+                            auther: Макеев П. <br>
+                            group: M3337      <br>
+                            date: 02/20/19
+                        </footer>
+                    </article>
+                </article>
+                <input type=button class=response onclick="report4()" 
+                    value="Котэ, что скажешь?">
+            </section>
+
+            <div id=cat>
+                <p id=quote>Опасность!<br>
+                    Перехожу в гиперпространство!</p>
+                <img id=cat-face src=cat0.png alt=котейка width=210>
+            </div>
+    </body>
+
+    <script lang="javascript">
+        var quote = document.getElementById("quote");
+        var cat_face = document.getElementById("cat-face");
+        var cat = document.getElementById("cat");
+        var timer;
+        var temp;
+        
+        function silent() {
+            timer = null;
+            quote.textContent = temp;
+            quote.setAttribute("opacity", "null");
+            cat_face.setAttribute("opacity", "null");
+        }
+
+        function speak(message) {
+            if (timer != null) {
+                clearTimeout(timer);
+                silent();
+            }
+            temp = quote.textContent;
+            quote.textContent = message;
+            quote.setAttribute("opacity", "1.0");
+            cat_face.setAttribute("opacity", "0.2");
+            timer = setTimeout(silent, 3000);
+        }
+
+        function report0() { speak("Кривослепленный тормозящий колхоз"); }
+        function report1() { speak("Я откуда знаю? Я - кот"); }
+        function report2() { speak("Надо добавить бесполезных margin-ов"); }
+        function report3() { speak("Не ну это бан"); }
+        function report4() { speak("..."); }
+
+        function toggle_cat() {
+            if (cat.getAttribute("jeopardized") == "true") {
+                cat.setAttribute("jeopardized", "false");
+            } else {
+                cat.setAttribute("jeopardized", "true");
+            }
+        }
+
+        for (var i = 0; i < 5; i++) {
+            eval(
+                `var item${i} = document.getElementById("item${i}");
+                function fold${i}() {
+                    if (item${i}.getAttribute("state") == "open") {
+                        item${i}.setAttribute("state", "null");
+                    } else {
+                        item${i}.setAttribute("state", "open");
+                    }
+                }`);
+        }
+        
+    </script>
+</html>

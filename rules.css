@@ -1,0 +1,210 @@
+a {
+    color: #969cf3;
+}
+
+pre {
+    font-size: 7pt;
+    background-color: #101010;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    backface-visibility: visible;
+    padding-block-end: 0%;
+    padding-block-start: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-inline-end: 0%;
+    padding-inline-start: 0%;
+}
+
+.item {
+    width: fit-content;
+    margin-top: 10pt;
+}
+
+.bar {
+    display: inline-block;
+    width: fit-content;
+    font-size: 40pt;
+    color: white;
+    opacity: 0.1;
+    transition-duration: 300ms;
+}
+
+.content {
+    margin-left: 10pt;
+    margin-top: inherit;
+    margin-right: inherit;
+    margin-bottom: inherit;
+    margin-inline-end: inherit;
+    margin-inline-start: inherit;
+    margin-block-end: inherit;
+    margin-block-start: inherit;
+    display: inline-block;
+    width: fit-content;
+    color: white;
+    opacity: 0.0;
+}
+
+.content > header {
+    font-size: 40pt;
+    text-align: center;
+}
+
+.content > article {
+    display: none;
+}
+
+.item[state="open"] > .content > article {
+    display: block;
+}
+
+.response {
+    margin-left: 10pt;
+    width: fit-content;
+    height: 40pt;
+    color: white;
+    border: darkgray;
+    font-size: 15pt;
+    background: linear-gradient(0deg, #404040 0%, #646464 15%, black 50%, #646464 85%, #404040 100%);
+    opacity: 0.0;
+    transform: translate(20%, 0%) rotate(-0.02turn);
+}
+
+.item:hover > .response:hover {
+    opacity: 1.0;
+    background: linear-gradient(0deg, #404040 0%, #648064 15%, black 50%, #648064 85%, #404040 100%);
+}
+
+.item:hover > .bar {
+    color: lightgreen;
+    font-size: 37pt;
+    opacity: 0.8;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+	transform: translate(0%, 0%) rotate(30deg);
+}
+
+.item[state="open"]:hover > .bar,
+.item[state="open"] > .bar {
+    color: lightgreen;
+    font-size: 40pt;
+    opacity: 0.8;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+	transform: translate(0%, 0%) rotate(0deg);
+}
+
+.item:hover > .response,
+.item[state="open"] > .response {
+    opacity: 0.7;
+    transition-duration: 600ms;
+    transform: translate(0px, 10px); 
+}
+
+.item:hover > .content,
+.item[state="open"] > .content {
+    opacity: 0.8;
+    width: 500px;
+    background: radial-gradient(circle, #333333 0%, #2d2d2d 30%, black 100%);
+    transition-duration: 300ms;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transform: translate(0px, 20px);
+}
+
+@keyframes cycle-stabilized {
+    20% { left:  50%; top:  20%; }
+    40% { left: 110%; top:  10%; }
+    50% { left: 110%; top: 100%; }
+    70% { left:  40%; top:  20%; }
+    90% { left: -480px; top: 10%; }
+}
+
+@keyframes cycle {
+    20% {
+        left: 50%;
+        top: 20%;
+        transform: rotate(0.5turn);
+    }
+    
+    40% {
+        left: 110%;
+        top: 10%;
+        transform: rotate(1turn);
+    }
+    
+    50% {
+        left: 110%;
+        top: 100%;
+        transform: rotate(0turn);
+    }
+    
+    70% {
+        left: 40%;
+        top: 20%;
+        transform: rotate(-0.5turn);
+    }
+    
+    90% {
+        left: -480px;
+        top: 10%;
+        transform: rotate(-1turn);
+    }
+}
+
+#cat > img {
+    animation-duration: 20s;
+    animation-name: cycle;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: fixed;
+    transition-duration: 300ms;
+    opacity: 1.0;
+    top: 100%;
+    left: -480px;
+}
+
+#cat {
+    animation: cycle-stabilized 20s infinite linear; 
+    position: fixed;
+    transition-duration: 300ms;
+    opacity: 1.0;
+    top: 100%;
+    left: -480px;
+}
+
+#cat[jeopardized="true"] {
+    transition-duration: 6s;
+    transition-timing-function: linear;
+    transform: rotate(20turn) translate(1000%, 0%);
+}
+
+#cat-face[opacity="0.2"] {
+    opacity: 0.2;
+}
+
+#cat:hover > img {
+    opacity: 0.1;
+}
+
+#quote {
+    width: fit-content;
+    font-size: 30pt;
+    color: white;
+    opacity: 0.0;
+}
+
+#cat:hover > #quote {
+    opacity: 1.0;
+}
+
+#quote[opacity="1.0"] {
+    opacity: 1.0;
+}
+
+.cat-word {
+    font-size: 120%;
+    font-family: 'Comic Sans';
+    font-weight: bold;
+}
+
+.response:hover .cat-word {
+    color: lightgreen;
+}
