@@ -1,0 +1,82 @@
+* {
+    background-color: lightcyan;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+    padding: 1px;
+    color: black;
+    text-align: center;
+}
+
+article {
+    float: left;
+}
+
+footer {
+    float: left;
+    text-align: left;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    font-family: serif;
+    color: black;
+    font-stretch: normal;
+}
+
+ul {
+    list-style-type: square;
+    list-style-position: outside;
+}
+
+h3 {
+    font-weight: normal;
+    outline-style: dashed;
+    outline-color: darkblue;
+    outline-width: 3px;
+    outline-offset: -3px;
+    padding: 5px;
+}
+
+#contacts_info {
+    padding-left: 30px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+
+#practic {
+    font-weight: bolder;
+}
+
+#Author_info {
+    font-size: 19px;
+    font-weight: normal;
+    color: darkblue;
+}
+
+#e-mail {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#mod_info {
+    font-family: sans-serif;
+    color: darkslategrey;
+}
+
+img {
+    width: 34%;
+    min-width: 256px;
+    position: relative;
+    float: right;
+    border-radius: 20px;
+}
