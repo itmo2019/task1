@@ -1,0 +1,97 @@
+body {
+    background-color: cornsilk;
+}
+
+div.content {
+    width: 800px;
+    margin: auto;
+}
+
+header {
+    border-style: solid;
+    border-color: black;
+    background-color: ghostwhite;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: darkslategray;
+    text-shadow: 2px 2px 2px gray;
+}
+
+h2 {
+    text-align: center;
+    color: darkslategray;
+}
+
+article.quote {
+    width: 40%;
+    float: right;
+    text-align: right;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+a, time {
+    font-family: Times, Times New Roman, serif;
+}
+
+article.text {
+    float: left;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    line-height: 170%;
+}
+
+p.main-text {
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+p.quote-text {
+    font-size: 13px;
+}
+
+footer {
+    float: left;
+}
+
+a:link {
+    color: red;
+    font-style: italic;
+}
+
+a:visited {
+    color: darkred;
+    font-style: italic;
+}
+
+a:hover {
+    color: mediumvioletred;
+    font-style: italic;
+}
+
+a:active {
+    color: palevioletred;
+    font-style: italic;
+}
+
+img {
+    float: right;
+    width: 80px;
+    border-style: solid;
+    border-color: black;
+    background-color: ghostwhite;
+    border-radius: 35%;
+    border-width: 3px;
+    padding: 2%;
+    box-shadow: 7px 7px 5px grey;
+}
+
+span {
+    color: blue;
+}
