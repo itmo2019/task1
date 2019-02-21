@@ -1,0 +1,115 @@
+body {
+    color: white;
+    background-image: url("src/bg.jpg");
+}
+
+.grid-system {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.out-par {
+    background: antiquewhite;
+    border: solid red;
+    border-radius: 10px;
+}
+
+#par-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#par-2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+#par-3 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+#title {
+    text-align: center;
+}
+
+.ul-content {
+    list-style-type: lower-alpha;
+}
+
+.content-on-hover-trigger:hover {
+    background-color: red;
+}
+
+a, a:visited {
+    color: aqua;
+    font-style: normal;
+}
+
+.front-i:hover {
+    background-color: forestgreen;
+}
+
+.hard-i:hover {
+    background-color: red;
+}
+
+.add-offset {
+    margin-left: 25px;
+}
+
+nav h2 {
+    text-align: center;
+}
+
+.as-table {
+    display: table;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ul-content {
+    list-style: none;
+}
+
+.ul-content li {
+    display: inline;
+}
+
+footer {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border-style: groove;
+    border-width: medium;;
+    border-color: wheat;
+}
+
+footer address {
+    color: aqua;
+    text-align: center;
+}
+
+nav {
+    border: dotted wheat;
+}
+
+main {
+    color: black;
+}
+
+.out-par h4, .out-par p {
+    padding-left: 25px;
+}
