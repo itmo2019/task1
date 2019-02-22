@@ -1,0 +1,101 @@
+body {
+    background-color: beige;
+}
+
+header {
+    font-style: italic;
+
+}
+
+.timestamp {
+    margin: unset;
+    text-indent: unset;
+    font-size: 20px;
+}
+
+address {
+    font-size: 20px;
+}
+
+.paragraph {
+    border-width: thin;
+    border-style: solid;
+    outline-style: solid;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+
+p {
+    text-indent: 1.5em;
+    margin: 1% 2%;
+    font-size: 18px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+main {
+    text-align: center;
+    alignment: center;
+    align-content: center;
+}
+
+section{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    text-align: justify;
+    font-family:  serif;
+    position:  relative;
+}
+
+abbr {
+    border-bottom: 1px;
+}
+
+ol {
+    margin-left: 3em;
+    counter-reset: myCounter;
+}
+
+li{
+    list-style: none;
+}
+
+li:before {
+    counter-increment: myCounter;
+    content:counter(myCounter);
+    color: white;
+    background: #2980B9;
+    display: inline-block;
+    text-align: center;
+    margin: 5px 10px;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.pl_link:link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.pl_link:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
