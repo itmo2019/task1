@@ -1,7 +1,5 @@
 body {
-	background-image: url(../images/background.png);
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background: url(../images/background.png) no-repeat fixed;
 	background-size: 100%;
 	overflow-y: scroll;
 }
@@ -28,10 +26,15 @@ span {
 }
 
 p {
-	font-size: 18px;
-	line-height: 1.35;
-	font-weight: 300;
-	text-align: justify;
+    font-size: 18px;
+    line-height: 1.35;
+    font-weight: 300;
+    text-align: justify;
+    padding-bottom: 3px;
+}
+
+#p-before-ul {
+    margin-bottom: 10px;
 }
 
 b {
@@ -40,28 +43,24 @@ b {
 
 blockquote {
 	font-size: 19px;
-	padding-top: 1px;
-	padding-bottom: 1px;
+	padding: 1px auto;
 	font-style: italic;
 }
 
 article {
 	display: flow-root;
-	padding-right: 20px;
+	padding-right: 10px;
 }
 
 #article-content {
-	width: 60%;
+	width: 61%;
 	float: right;
 	text-align: left;
 }
 
 hr {
-	margin-left: 50px;
-	margin-right: 50px;
-	border-top-width: 0;
-	border-top-style: solid;
-	border-top-color: black;
+	margin: auto 50px;
+	border-top: 0 solid black;
 }
 
 footer {
@@ -77,8 +76,30 @@ a {
 	padding-right: 5px;
 }
 
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: darkcyan;
+}
+
+abbr {
+	text-decoration: none !important;
+	border-bottom: 2px dotted;
+}
+
+abbr:hover {
+	font-weight: 500;
+}
+
 li {
 	line-height: 1.4;
+}
+
+ul {
+    margin-top: 0;
+    padding-bottom: 3px;
 }
 
 address {
@@ -89,4 +110,14 @@ address {
 #date {
 	margin-top: 4px;
 	display: inline-block;
+}
+
+section {
+	padding: 0 10px;
+}
+
+.paragraph:hover {
+	background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transition: all 2s;
 }
