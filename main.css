@@ -1,0 +1,81 @@
+body {
+    background-color: beige;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: left;
+    text-decoration: none;
+    text-indent: 2ch;
+}
+
+span {
+    text-emphasis: emphasi;
+}
+
+header {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    font-weight: lighter;
+    color: goldenrod
+}
+
+abbr {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+ol {
+    list-style-position: outside;
+}
+
+section {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    width: inherit;
+    height: max-content;
+}
+
+li {
+    border: 5px;
+    padding: 10px;
+    margin: 5px;
+    border-style: outset;
+    border-radius: 40px;
+    border-color: goldenrod;
+}
+
+[href] {
+    color: green;
+}
+
+footer {
+    text-align: center;
+}
+
+#author:hover {
+    font-size: larger;
+    transition-duration: 1s;
+}
+
+small {
+    letter-spacing: 1px;
+}
