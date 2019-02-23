@@ -1,0 +1,107 @@
+body {
+    background: url(back.png) repeat scroll;
+    overflow-y: scroll;
+}
+
+.flex {
+    display: flex;
+}
+
+.block {
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 90px;
+    font-weight: 200;
+    margin-bottom: 0;
+    text-shadow: 1px 1px 3px black, 0 0 1em purple;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+span {
+    color: #ff0000;
+}
+
+p {
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+article {
+    text-shadow: 1px 1px 3px black, 0 0 1em green;
+    padding: 0 10px 10px;
+}
+
+
+footer {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 30px;
+    background: #616161;
+}
+
+a {
+    margin: 10px;
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:hover {
+    color: lightsalmon;
+}
+
+address {
+    display: inline-block;
+    font-style: normal;
+}
+
+.back-gray {
+    background: rgba(128, 128, 128, 0.10);
+    border: gray 2px solid;
+}
+
+.back-gray:hover {
+    transition: all 1s;
+    background: rgba(128, 128, 128, 0.40);
+    border: gray 4px double;
+
+}
+
+.back-blue {
+    background: rgba(0, 0, 255, 0.10);
+    border: blue 2px solid;
+}
+
+.back-blue:hover {
+    transition: all 1s;
+    background: rgba(0, 0, 255, 0.40);
+    border: blue 4px double;
+}
+
+.back-red {
+    background: rgba(255, 0, 0, 0.10);
+    border: red 2px double;
+}
+
+.back-red:hover {
+    transition: all 1s;
+    background: rgba(255, 0, 0, 0.40);
+    border: red 4px double;
+}
+
+section {
+    padding: 0 10px;
+    margin-bottom: 0;
+}
+
+time {
+    color: white;
+}
