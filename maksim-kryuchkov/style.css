@@ -1,0 +1,49 @@
+body {
+   	font-size: 1.5em;
+   	color: black;
+   	font-family: Times New Roman;
+	background-color: lightblue;
+}
+
+
+#old-projects {
+	margin-right: 30em;
+}
+
+#images {
+	margin-left: 52em;
+	top: 10em;
+	position: absolute;
+	border-color: blue;
+	border-width: 0.1em;
+	border-style: solid;
+	background-color: rgb(208, 112, 112);
+	color: rgb(72, 8, 8);
+	font-weight: bold;
+}
+
+#conclusion {
+	margin-right: 30em;
+	font-size: 1em;
+	font-family: sans-serif;
+	font-style: italic;
+	color: navy;
+}
+
+#contact-info {
+	font-size: 1em;
+	color: navy;
+	position: relative;
+	margin-left: 70%;
+	margin-top: 0em;
+	margin-bottom: -1em;
+	padding-left: 3em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	border-color: blue;
+	border-width: 0.1em;
+	border-style: solid;
+	background-color: rgb(205, 205, 205);
+}
+
+
