@@ -8,16 +8,17 @@ div.content {
 }
 
 header {
-    border-style: solid;
-    border-color: black;
+    border-style: outset;
+    border-color: gray;
     background-color: ghostwhite;
+    border-width: 3px;
 }
 
 h1 {
     text-align: center;
     text-transform: uppercase;
     color: darkslategray;
-    text-shadow: 2px 2px 2px gray;
+    text-shadow: 3px 3px 3px gray;
 }
 
 h2 {
@@ -26,16 +27,14 @@ h2 {
 }
 
 article.quote {
-    width: 40%;
+    width: 300px;
     float: right;
     text-align: right;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    margin-top: 2%;
+    margin-right: 20px;
 }
 
-a, time {
-    font-family: Times, Times New Roman, serif;
+time {
+    font-family: Georgia, Georgia, serif;
 }
 
 article.text {
@@ -44,7 +43,7 @@ article.text {
 
 p {
     font-family: Arial, sans-serif;
-    line-height: 170%;
+    line-height: 30px;
 }
 
 p.main-text {
@@ -59,25 +58,24 @@ p.quote-text {
 footer {
     float: left;
 }
-
+a {
+    font-style: italic;
+    font-family: Times, Times New Roman, serif;
+}
 a:link {
     color: red;
-    font-style: italic;
 }
 
 a:visited {
     color: darkred;
-    font-style: italic;
 }
 
 a:hover {
     color: mediumvioletred;
-    font-style: italic;
 }
 
 a:active {
     color: palevioletred;
-    font-style: italic;
 }
 
 img {
@@ -86,12 +84,18 @@ img {
     border-style: solid;
     border-color: black;
     background-color: ghostwhite;
-    border-radius: 35%;
+    border-radius: 40px;
     border-width: 3px;
-    padding: 2%;
+    padding: 15px;
     box-shadow: 7px 7px 5px grey;
 }
 
 span {
     color: blue;
+}
+
+p.copy {
+    font-size: 20px;
+    color: darkolivegreen;
+    text-shadow: 2px 2px 2px gray;
 }
