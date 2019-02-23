@@ -2,20 +2,23 @@ header {
     color: #515151;
     text-decoration: underline;
     text-align: center;
+    display: flex;
+    background-color: white;
 }
 
 body {
     animation-name: background-animation;
     animation-duration: 2s;
+    animation-fill-mode: forwards;
     font-family: serif;
     color: #454545;
     font-size: 16px;
     margin: 2em auto;
+    min-width: 400px;
     max-width: 800px;
     padding: 1em;
     line-height: 1.4;
     text-align: justify;
-    background-color: floralwhite;
 }
 
 @keyframes background-animation {
@@ -27,10 +30,11 @@ h3 {
     color: #484848;
     text-align: left;
     text-decoration: overline;
+    text-indent: -3%;
 }
 
 .picture-container {
-    display: block;
+    display: inline-block;
     justify-content: center;
 }
 
@@ -60,4 +64,6 @@ footer {
     color: #424242;
     text-align: right;
     opacity: 90%;
+    background: beige;
+    padding: 5%;
 }
