@@ -1,0 +1,89 @@
+body {
+    background: beige;
+    border: 4px ridge black;
+    box-shadow: 0 0 20px grey;
+}
+header{
+    color: brown;
+    background: burlywood;
+    font-family: "Franklin Gothic Heavy";
+}
+.letter {
+    color: crimson;
+    font-size: 200%;
+    top: 5px;
+}
+figure {
+    background: chocolate;
+    border: 4px ridge firebrick;
+    box-shadow: 1px 1px 10px grey;
+    cursor: s-resize;
+    width: 500px;
+}
+
+a {
+    color: aqua;
+}
+
+figcaption {
+    color: maroon;
+    font-family: "Comic Sans MS";
+}
+
+section {
+    font-family: "Franklin Gothic Book";
+}
+
+#frame {
+    list-style-type: circle;
+    color: coral;
+}
+
+#prep {
+    list-style-type: disc;
+    color: indianred;
+}
+
+#first {
+    font-size: 20px;
+    color: dimgrey;
+    cursor: n-resize;
+}
+
+#second {
+    font-size: 18px;
+    color: grey;
+    cursor: ne-resize;
+}
+
+#third {
+    font-size: 16px;
+    color: darkgrey;
+    cursor: e-resize;
+}
+
+marquee {
+    behavior: scroll;
+    direction: left;
+    font-size: 15px;
+    color: darkmagenta;
+}
+
+img {
+    box-shadow: -1px -1px 15px grey;
+    margin: 10px;
+}
+
+address {
+    color: blue;
+}
+
+time {
+    color: darkblue;
+    font-family: "Bauhaus 93";
+}
+
+
+
+
+
