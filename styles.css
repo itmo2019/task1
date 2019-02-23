@@ -1,0 +1,119 @@
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+body {
+    background: url("http://wallpapersfan.ru/wp-content/uploads/2018/02/oboi-temnyj-kosmos-skachat-na-fon-monitora.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 110%;
+}
+
+.main_block {
+    border-style: double;
+    border-color: #00086d;
+    width: 85%;
+    margin: 0 auto;
+    background: rgba(0, 11, 29, 0.66);
+    color: #ffffff;
+}
+
+h1 {
+    padding: 20px;
+    text-shadow: 2px 3px #000467;
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 3px;
+}
+
+h2 {
+    word-spacing: 13px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    text-shadow: 2px 2px rgba(35, 0, 128, 0.39);
+}
+
+a:link {
+    color: #0004ff;
+}
+
+a:visited {
+    color: rgba(109, 0, 168, 0.92);
+}
+
+abbr {
+    text-decoration: white solid;
+}
+
+article {
+    text-indent: 30px;
+    padding: 40px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+footer {
+    padding: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.top_img {
+    margin-left: 45%;
+}
+
+.names {
+    letter-spacing: 2px;
+}
+
+#contacts {
+    cursor: cell;
+
+    float: left;
+    text-align: left;
+    padding: 10px;
+    border: 2px solid rgba(0, 28, 125, 0.75);
+    background-color: rgba(0, 5, 64, 0.56);
+
+}
+
+@keyframes example {
+    from {
+        color: rgb(0, 5, 255);
+    }
+    to {
+        color: #ffffff;
+    }
+}
+
+
+#contacts b {
+    font-size: 14px;
+    position: relative;
+}
+
+#contacts cite {
+    color: #b4b4b4;
+}
+
+#contacts h3 {
+    text-decoration: underline;
+    font-weight: unset;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: 20;
+    animation-direction: alternate-reverse;
+}
+
+footer div {
+    float: right;
+}
