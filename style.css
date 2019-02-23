@@ -1,0 +1,81 @@
+body {
+    color: rgba(19,13,9,0.86);
+    background-color: rgba(197,234,255,0.86);
+    padding: 10px 40px 10px;
+}
+span {
+    color: red;
+    font-size: 120%;
+    position: relative;
+}
+h3 {
+    font-size: 140%;
+    font-family: "Comic Sans MS", sans-serif;
+    margin-left: 20px;
+}
+h1 {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 200%;
+    margin: 0;
+}
+#tagList {
+    list-style-type: square;
+    list-style-position: outside;
+    color: firebrick;
+    background-color: rgba(255,193,200,0.86);
+    font-family: "Comic Sans MS", sans-serif;
+}
+img {
+    display: block;
+    margin-top: 10px;
+}
+.sc2 {
+    width: 300px;
+    height: 150px;
+}
+#tilda {
+    margin-left: 150px;
+    margin-top: 10px;
+    display: block;
+    height: 75%;
+    width: 75%;
+}
+mark {
+    background-color: red;
+    font-family: "Century Gothic", serif;
+    font-size: 120%;
+}
+iframe {
+    padding-top: 15px;
+    padding-left: 10px;
+    margin: 0;
+    width: 500px !important;
+    height: 500px !important;
+}
+[href = "https://tilda.cc/ru/"] {
+    color: coral;
+    font-size: 110%;
+    margin: 5px;
+}
+strong {
+    font-size: 105%;
+    font-family: "Century Gothic", serif;
+    margin: 5px;
+}
+s {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: firebrick;
+}
+.p12 {
+    background-color: darkseagreen;
+    padding-top: 20px;
+}
+hr{
+    border: 2px dashed grey;
+    border-bottom: 1px dashed red;
+}
+i {
+    letter-spacing: 2px !important;
+}
