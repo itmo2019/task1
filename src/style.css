@@ -1,0 +1,71 @@
+h1 {
+    margin-left: 400px;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #191970;
+    text-shadow: 2px 2px 3px #FFF5EE;
+}
+
+body {
+    background: linear-gradient(45deg, #F0FFFF, #ADD8E6);
+}
+
+img {
+    width: 800px;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #FFF5EE;
+}
+
+a {
+    color: #F0FFFF
+}
+
+.hide {
+    display: none;
+}
+
+.hide + label ~ p {
+    display: none;
+}
+
+.hide + label {
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #191970;
+    border-bottom: 5px dotted #191970;
+    text-shadow: 2px 2px 3px #FFF5EE;
+}
+
+.hide:checked + label + p {
+    border-bottom: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF5EE;
+    border-radius: 10px;
+    background-color: #5F9EA0;
+    text-shadow: 2px 2px 10px #4B0082;
+}
+
+footer {
+    height: 100px;
+    padding-top: 15px;
+    padding-left: 700px;
+    font-size: 20px;
+    font-weight: 90;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFF5EE;
+    text-shadow: 2px 2px 10px #4B0082;
+    border-radius: 10px;
+    background-color: #191970;   
+    box-shadow: 2px 2px 10px #FFF5EE;
+}
