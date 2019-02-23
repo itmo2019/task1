@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-regular.ttf') format('ttf'), url('fonts/hack-regular.woff2') format('woff2'), url('fonts/hack-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bold.ttf') format('ttf'),url('fonts/hack-bold.woff2') format('woff2'), url('fonts/hack-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-italic.ttf') format('ttf'), url('fonts/hack-italic.woff2') format('woff2'), url('fonts/hack-italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Hack';
+  src: url('fonts/hack-bolditalic.ttf') format('ttf'), url('fonts/hack-bolditalic.woff2') format('woff2'), url('fonts/hack-bolditalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+html,body,main {
+	font-family: 'Hack';
+	user-select: none;
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.background {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	filter: blur(20px);
+	z-index: -100;
+	background: url('bg.jpg')
+}
+
+hr {
+	margin: 50px 100px;
+}
+
+
+
+main {
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.6);
+	width: 900px;
+	margin: 0 auto;
+	min-height: 100%;
+	color: white;
+	display: flex;
+	flex-direction: row;
+	flex-flow: row;
+}
+
+.textcentered{
+	text-align: center;
+}
+
+.textbold {
+	font-weight: bold;
+}
+
+#myname {
+	margin-top: 10px;
+}
+
+.descr {
+	margin-top: 1px;
+	font-size: 10pt;
+}
+
+.profile {
+	position: fixed;
+	transition: 0.5s left;
+	width: 200px;
+	top: 50px;
+	left: -160px;
+	user-select: none;
+	user-drag: none; 
+	-moz-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.profile:hover {
+	left: 0px;
+}
+
+.dotted {
+	border-style: dotted;
+}
+
+mark {
+    background-color: darkgray;
+    color: white;
+	transition: 0.5s background-color;
+}
+
+mark.deleted:hover {
+	background: red;
+}
+
+mark:hover {
+	background: green;
+}
+
+article {
+	margin-left: 10px;
+	flex-grow: 1;
+}
+
+article > header {
+	font-size: 25px;
+}
+
+section {
+	margin-top: 100px;
+}
+
+section header {
+	text-align: center;
+	font-size: 25px;
+}
+
+section header:hover {
+	text-align: center;
+	font-size: 25px;
+}
+
+section header::before{
+	content: ' >> ';
+}
+
+section header::after{
+	content: ' << ';
+}
+
+.deleted {
+	text-decoration: line-through;
+}
+
+.sectionContent {
+	font-size: 18px;
+}
+
+
+.info {
+	font-size: 6pt;
+	text-align: center;
+}
+
+.info::before{
+	content: ' /* ';
+}
+
+.info::after{
+	content: ' */ ';
+}
+
+footer {
+	display: table;
+	margin: 100px auto;
+}
+
+.escape {
+	padding: 10px;
+}
+
+/*#kuban {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+   transition: transform 8s ease-in-out;
+}
+
+#kuban:hover {
+  -webkit-transform: rotate(36000deg);
+          transform: rotate(36000deg);
+}*/
+
+button {
+	background: darkgray;
+	border-radius: 20px;
+}
+
+.razryvmozga {
+	margin: 100px 0;
+}
+
+.jojo {
+	transition: 1s all;
+}
+
+.jojo:hover{
+	filter: brightness(10);
+}
+
+.profileImage {
+	width: 100%;
+	border-top-left-radius: 240px;
+	border-top-right-radius: 240px;
+	border-bottom-left-radius: 240px;
+	border-bottom-right-radius: 240px;
+	/*height: 230px;*/
+}
