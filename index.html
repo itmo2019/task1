@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        * {
+            font-family: "Monospaced", monospace;
+        }
+
+        a:visited {
+            outline-style: dashed;
+        }
+
+        .xx {
+            margin: 0 auto;
+        }
+
+        html {
+            min-height: 100%;
+        }
+
+        body {
+            width: 100%;
+            margin: 0;
+            min-height: 100vh;
+        }
+
+        #main {
+            width: 700px;
+            padding: 20px;
+            text-align: center;
+            min-height: 100%;
+        }
+
+        p {
+            voice-family: male;
+            richness: 80;
+            size: 16pt;
+            border-style: groove;
+            text-indent: 30px;
+            word-spacing: 5px;
+            quotes: "'" "'";
+        }
+
+        h1 {
+            font-weight: bolder;
+            box-shadow: 1px 1px 1px 1px black;
+        }
+
+        #footer-2 {
+            width: 33%;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        #as-footer {
+            width: 100%;
+            height: 100%;
+        }
+
+        #target:hover {
+            cursor: crosshair;
+        }
+
+        #target {
+            width: 300px;
+        }
+
+        #code {
+            width: 300px;
+        }
+
+        #code:hover {
+            display: none;
+        }
+
+        #mvc:hover {
+            font-style: oblique;
+            text-decoration-color: aqua !important;
+            text-decoration: underline;
+        }
+
+        rt {
+            border-style: solid;
+            border-width: 1px;
+            border-color: black;
+            border-radius: 3px;
+            white-space: pre;
+        }
+
+        button {
+            outline: #125783 dashed 2px;
+        }
+
+        sub {
+            user-select: none;
+            background: #000000;
+        }
+
+        abbr:hover {
+            text-transform: lowercase;
+            text-shadow: 1px 1px 1px chartreuse;
+        }
+
+        img:hover {
+            transition-delay: 200ms;
+            transform: rotate(90deg);
+        }
+
+        #button {
+            width: 100px;
+            opacity: 0.5;
+        }
+
+        #label {
+            width: 200px;
+            direction: rtl;
+        }
+
+        #label:after {
+            content: ' \00A9';
+        }
+
+        i {
+            letter-spacing: 1px;
+        }
+
+        textarea {
+            resize: both;
+            overflow: auto;
+        }
+
+        #backoff {
+            background-image: url("https://i.gifer.com/origin/d4/d4efe215d7b06ed7be0b467c8a4ddffd_w200.gif");
+            background-size: 100%;
+            display: none;
+            min-height: 100vh;
+            width: 100%;
+        }
+
+    </style>
+    <title>Это отзыв Владислава Сайфулина</title>
+</head>
+<body>
+<div id="all">
+    <div class="xx" id="main"><h1>
+        Чего я жду от курсов Фронтенда?
+    </h1>
+        <p>
+            Ну, во-первых, жду от курса закрываемости. Не хотелось бы месяцами ждать проверку дз или его появление. В
+            общем,
+            нужна какая-то регулярность в этом деле с обоих сторон.
+        </p>
+        <p>
+            Так же было бы неплохо конвертнуть группу в телеграме в канал (т.е. удалить группу). Столько спама и
+            идиотских
+            вопросов вынести невозможно. Говорят, что нужно не стесняться задавать свой вопрос, если кажется, что он
+            тупой.
+            Но нормально ли это часами мусолить тему того - что такое: <q>использовать 40 тегов в задании</q>?
+        </p>
+        <p>
+            <u>По поводу курса</u>, ожидаю разбор классических проблем фронтенд разработки <sub>(понятия не имею, что
+            это
+            значит)</sub>. Хочу
+            узнать, почему веб теперь такой, какой мы его имеем: откуда засилье фреймворков? почему всем правит только
+            js?
+            Может быть, стоит осветить какие-то паттерны фронтенд разработки (что-то отличное от <span
+                id="mvc">MVC</span>,
+            <ruby>MVVM
+                <rt> Эм-ви-ви-эм</rt>
+            </ruby>
+            ), типо как
+            написать сайт так, чтобы он работал при потере соединения с сервером (считая, что у нас интерактивное
+            веб-приложение). Или как сделать, чтобы каждый элемент твоего приложения реагировал <i>асинхронно</i>
+            на каждое изменение данных сервера, и при этом не убить сервер, и не погибнуть в бесконечных запросах. Еще
+            хочу
+            <abbr title="Web Assembly">WASM</abbr> и его будущее,
+            <img alt="jb team"
+                 src="https://camo.githubusercontent.com/9e56add92e31202218fcaea188e566a0a3757a6a/687474703a2f2f6a622e67672f6261646765732f7465616d2e737667">
+            <a href="https://github.com/JetBrains/kotlin-wrappers/tree/master/kotlin-react">kotlin-react</a>
+            (но я про него знаю, просто людям показать, много кто на котлине пишет).
+        </p>
+    </div>
+    <div class="xx" id="button">
+        <button type="button" onclick="document.getElementById('all').style.setProperty('display', 'none'); document.getElementById('backoff').style.setProperty('display', 'block')">hit to copystrike</button>
+    </div>
+    <div id="as-footer">
+        <div id="footer-2">
+            <img alt="target"
+                 id="target"
+                 src="http://cdn.shoplightspeed.com/shops/611633/files/3455511/3006-3006-mini-paper-target-10-ring-each.jpg"
+                 usemap="#targetmap">
+            <map name="targetmap">
+                <area alt="center" coords="150,150,30" href="#code" shape="circle">
+            </map>
+        </div>
+    </div>
+    <div class="xx" id="code">
+        <code>
+            hit the target
+        </code>
+    </div>
+    <div class="xx" style="width: 300px;">
+        <ul>
+            <li>1. List for tags?????</li>
+            <li>2. PROFIT!!</li>
+        </ul>
+        <table>
+            <thead>
+            <tr>
+                <th>Color</th>
+                <th>Box</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>#324053</td>
+                <td style="background: #324053"></td>
+            </tr>
+            <tr>
+                <td>#f9a283</td>
+                <td style="background: #f9a283"></td>
+            </tr>
+            <tr>
+                <td>#125783</td>
+                <td style="background: #125783"></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="xx" id="label">
+        <label>
+        <textarea>
+            write to copy strike...
+        </textarea>
+        </label>
+    </div>
+</div>
+<div id="backoff">
+</div>
+</body>
+</html>
