@@ -1,0 +1,119 @@
+h1 {
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+figure {
+  float: right;
+  display: inline-block; 
+  padding: 10px; 
+  margin-left: 10;
+  margin-top: 10;
+  margin-bottom: 10;
+  margin-right: 10;
+  vertical-align: top; 
+  background: #CCFFDD;
+  border-style: ridge;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 25px;
+}
+
+figcaption { 
+	text-align: center; 
+	margin: 10 10 10 10; 
+	padding: 0px;
+	font-style: italic;
+}
+
+figure.right figcaption {
+	padding: 10px;
+	margin: 10 10 10 10;
+}
+
+body {
+	position: absolute;
+	left: 20px;
+	right: 10px;
+	top: 10px;
+	bottom: 20px;
+	background: url("src/background.jpg");
+  background-attachment: fixed;
+  background-size: 15%;
+  background-repeat: space;
+  background-color: #FFFFDD;
+	quotes: "\00ab" "\00bb";
+	hyphens: auto;
+	direction: ltr;
+	white-space: normal;
+	word-spacing: 2px;
+	word-break: keep-all;
+}
+
+.beginning {
+	text-shadow: 0 0 10px rgba(0,0,0,0);
+	font-family: sans-serif;
+}
+
+#frontend {
+	font-family: fantasy;
+	font-size: 12pt;
+	letter-spacing: 5px;
+}
+
+#febr {
+	color: blue;
+	opacity: 0.5;
+}
+
+#smiles {
+	color: red;
+	font-weight: 500;
+	font-stretch: ultra-expanded;
+}
+
+p {
+	text-indent: 1.5em;
+}
+
+#firstWord {
+	color: red;
+}
+
+.first {
+	text-decoration: overline;
+}
+
+.second {
+	text-decoration: line-through;
+}
+
+.third {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #FFAA00;
+}
+
+a {
+	color: #00AA00;
+}
+
+ol {
+	list-style-type: lower-greek;
+	list-style-position: outside;
+}
+
+img {
+	cursor: help;
+}
+
+.hideme {
+	visibility: hidden;
+}
+
+html {
+	left: 100px;
+}
