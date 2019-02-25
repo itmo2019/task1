@@ -1,13 +1,14 @@
-h2 {
-    font-family: monospace;
-}
-
 #contacts {
     border: 1px solid black;
 }
 
 .title {
     font-family: serif;
+    letter-spacing: 5px;
+}
+
+.paragraph:first-letter {
+    color: crimson;
 }
 
 a:link {
@@ -19,10 +20,6 @@ a:visited {
 }
 
 a:hover {
-    color: crimson;
-}
-
-article::first-letter {
     color: crimson;
 }
 
@@ -38,7 +35,7 @@ p::first-line {
     font-weight: bold;
 }
 
-.contacts-part {
+.contacts_part {
     text-decoration: underline;
 }
 
@@ -69,21 +66,19 @@ p::first-line {
     font-weight: bolder;
 }
 
-main {
+#text-main {
+    border: 3px solid blue;
     margin-bottom: 5px;
 }
 
-#text-main {
-    border: 3px solid blue;
-}
-
-#pictures-main {
+#pictures_main {
     border: 3px solid crimson;
 }
 
 .header {
     text-align: center;
     font-weight: lighter;
+    font-family: monospace;
 }
 
 .header::first-letter {
@@ -111,9 +106,13 @@ main {
     text-align: center;
 }
 
-.front {
+.highlight {
     font-weight: bolder;
     font-size: large;
     font-family: monospace;
     background-color: beige;
+}
+
+.paragraph {
+    margin-bottom: 10px;
 }
