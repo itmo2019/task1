@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #eee;
     padding: 0;
     padding-top: 50px;
@@ -90,7 +90,7 @@ main h2 {
     margin-right: 10px;
 }
 
-#quote h5{
+#quote h5 {
     text-align: right;
     font-size: 10pt;
 }
@@ -117,7 +117,7 @@ address {
     font-style: normal;
 }
 
-footer a{
+footer a {
     color: #eee;
     text-decoration: none;
 }
@@ -130,12 +130,19 @@ footer a{
     opacity: 0.65;
 }
 
-#par1{
+#par1 {
     background-image: url("img/par1.jpg");
-    min-height: 450px; 
+    min-height: 450px;
 }
 
-#par2{
+#par2 {
     background-image: url("img/par2.jpg");
     min-height: 650px;
+}
+
+hr {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray
 }
