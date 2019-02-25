@@ -66,13 +66,15 @@ p::first-line {
     font-weight: bolder;
 }
 
-#text-main {
+#text_main {
     border: 3px solid blue;
     margin-bottom: 5px;
 }
 
 #pictures_main {
     border: 3px solid crimson;
+    background-image: url("http://www.innovafire.com/sites/default/files/blog/html.jpg");
+    background-size: contain;
 }
 
 .header {
@@ -115,4 +117,5 @@ p::first-line {
 
 .paragraph {
     margin-bottom: 10px;
+    background-color: azure;
 }
