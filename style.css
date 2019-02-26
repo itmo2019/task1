@@ -2,83 +2,84 @@ body {
     background-color: cornsilk;
 }
 
-div.content {
+.content {
     width: 800px;
     margin: auto;
 }
 
-header {
+.head {
     border-style: outset;
     border-color: gray;
     background-color: ghostwhite;
     border-width: 3px;
 }
 
-h1 {
+.h1-head {
     text-align: center;
     text-transform: uppercase;
     color: darkslategray;
     text-shadow: 3px 3px 3px gray;
 }
 
-h2 {
+.h2-text {
     text-align: center;
     color: darkslategray;
 }
 
-article.quote {
+.quote {
     width: 300px;
     float: right;
     text-align: right;
     margin-right: 20px;
 }
 
-time {
+.my-time {
     font-family: Georgia, Georgia, serif;
 }
 
-article.text {
+.text {
     float: left;
 }
 
-p {
+.my-p {
     font-family: Arial, sans-serif;
     line-height: 30px;
 }
 
-p.main-text {
+.main-text {
     text-indent: 10px;
     font-size: 15px;
 }
 
-p.quote-text {
+.quote-text {
     font-size: 13px;
 }
 
-footer {
+.foot {
     float: left;
 }
-a {
+.my-link {
     font-style: italic;
     font-family: Times, Times New Roman, serif;
 }
-a:link {
+
+.my-link:link {
     color: red;
 }
 
-a:visited {
+.my-link:visited {
     color: darkred;
 }
 
-a:hover {
+.my-link:hover {
     color: mediumvioletred;
 }
 
-a:active {
+.my-link:active {
     color: palevioletred;
 }
 
-img {
+.logo {
     float: right;
     width: 80px;
     border-style: solid;
@@ -90,11 +91,11 @@ img {
     box-shadow: 7px 7px 5px grey;
 }
 
-span {
+.my-span {
     color: blue;
 }
 
-p.copy {
+.copy {
     font-size: 20px;
     color: darkolivegreen;
     text-shadow: 2px 2px 2px gray;
