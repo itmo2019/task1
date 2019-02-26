@@ -1,7 +1,6 @@
 body {
     background-color: #eee;
-    padding: 0;
-    padding-top: 50px;
+    padding: 50px 0 0;
     margin: 0;
     height: 100%;
     font-family: 'PT Sans', sans-serif;
@@ -11,7 +10,7 @@ main p {
     font-size: 13pt;
 }
 
-h1, h2, h3, h4, h5, h6, h7, footer p {
+h1, h2, h3, h4, h5, h6, footer p {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -26,7 +25,6 @@ abbr {
     padding: 0;
     width: 100%;
     overflow: hidden;
-    display: block;
     background-color: #2a2a2a;
     z-index: 10;
     list-style-type: none;
@@ -35,10 +33,7 @@ abbr {
 .main_nav a {
     display: block;
     color: #cacaca;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 8px 16px;
     text-decoration: none;
 }
 
@@ -47,47 +42,38 @@ abbr {
 }
 
 .main_nav li {
-    float: left;
+    display: inline-block;
 }
 
 main {
-    margin: 50px;
+    margin: 50px auto;
     text-align: justify;
     align-content: center;
     min-width: 500px;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-section {
-    margin: 50px;
+.main_text {
+    margin: 50px auto;
     align-content: center;
     min-width: 400px;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-main h1 {
+.mh1 {
     text-align: center;
     font-size: 27pt;
-    padding-top: 20px;
-    padding-bottom: 10px;
+    padding: 20px 0 10px;
 }
 
-main h2 {
+.main_text h2 {
     font-size: 20pt;
 }
 
 #quote {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    align-items: center;
+    margin: 50px 10px 50px auto;
     min-width: 400px;
     width: 50%;
-    margin-left: auto;
-    margin-right: 10px;
 }
 
 #quote h5 {
@@ -103,21 +89,17 @@ footer {
     background-color: #2a2a2a;
     color: #cacaca;
     font-size: 11pt;
-    margin: 0;
-    width: 100%;
-    bottom: 0;
 }
 
 #dfooter {
-    padding: 5px;
-    padding-left: 50px;
+    padding: 5px 5px 5px 50px;
 }
 
-address {
+#dfooter address {
     font-style: normal;
 }
 
-footer a {
+#dfooter a {
     color: #eee;
     text-decoration: none;
 }
@@ -140,7 +122,7 @@ footer a {
     min-height: 650px;
 }
 
-hr {
+.quotehr {
     height: 2px;
     border-width: 0;
     color: gray;
