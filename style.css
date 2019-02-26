@@ -3,56 +3,45 @@ h1 {
 	font-variant: small-caps;
 }
 
-figure {
+.fig {
   float: right;
   display: inline-block; 
   padding: 10px; 
-  margin-left: 10;
-  margin-top: 10;
-  margin-bottom: 10;
-  margin-right: 10;
-  vertical-align: top; 
+  margin: 10px;
   background: #CCFFDD;
   border-style: ridge;
-  border-bottom-right-radius: 20px;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 25px;
+  border-radius: 10px 15px 25px 5px;
 }
 
-figcaption { 
+.figCap { 
 	text-align: center; 
-	margin: 10 10 10 10; 
-	padding: 0px;
+	margin: 3px; 
+	padding: 10px;
 	font-style: italic;
 }
 
-figure.right figcaption {
-	padding: 10px;
-	margin: 10 10 10 10;
-}
-
 body {
-	position: absolute;
 	left: 20px;
 	right: 10px;
 	top: 10px;
 	bottom: 20px;
 	background: url("src/background.jpg");
-  background-attachment: fixed;
-  background-size: 15%;
-  background-repeat: space;
-  background-color: #FFFFDD;
+	background-attachment: fixed;
+	background-size: 15%;
+	background-repeat: space;
+	background-color: #FFFFDD;
 	quotes: "\00ab" "\00bb";
 	hyphens: auto;
-	direction: ltr;
-	white-space: normal;
 	word-spacing: 2px;
 	word-break: keep-all;
 }
 
+.pos {
+	position: absolute;
+}
+
 .beginning {
-	text-shadow: 0 0 10px rgba(0,0,0,0);
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
 	font-family: sans-serif;
 }
 
