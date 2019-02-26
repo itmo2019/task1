@@ -1,7 +1,6 @@
 body {
 	background: url(../images/background.png) no-repeat fixed;
 	background-size: 100%;
-	overflow-y: scroll;
 }
 
 .text-container {
@@ -30,15 +29,15 @@ h2 {
 }
 
 p {
-    font-size: 18px;
-    line-height: 1.35;
-    font-weight: 300;
-    text-align: justify;
-    padding-bottom: 3px;
+	font-size: 18px;
+	line-height: 1.35;
+	font-weight: 300;
+	text-align: justify;
+	padding-bottom: 3px;
 }
 
 #p-before-ul {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 b {
@@ -88,8 +87,8 @@ a:hover {
 	color: darkcyan;
 }
 
-abbr {
-	text-decoration: none !important;
+abbr[title] {
+	text-decoration: none;
 	border-bottom: 2px dotted;
 }
 
@@ -102,8 +101,8 @@ li {
 }
 
 ul {
-    margin-top: 0;
-    padding-bottom: 3px;
+	margin-top: 0;
+	padding-bottom: 3px;
 }
 
 address {
@@ -122,7 +121,7 @@ section {
 
 .paragraph:hover {
 	background-color: white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	transition: all 2s;
 }
 
