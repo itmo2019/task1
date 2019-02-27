@@ -1,5 +1,5 @@
 body {
-    background-color: beige;
+    background-color: #f5f5dc;
 }
 
 header {
@@ -17,9 +17,12 @@ address {
     font-size: 20px;
 }
 
+.ideas_summary {
+    text-decoration: underline;
+}
+
 .paragraph {
-    border-width: thin;
-    border-style: solid;
+    border: thin solid #000;
     outline-style: solid;
 }
 
@@ -29,10 +32,10 @@ h1 {
 
 
 p {
-    text-indent: 1.5em;
+    text-indent: 25px;
     margin: 1% 2%;
     font-size: 18px;
-    font-family: "Times New Roman", Times, serif;
+    font-family: "Times New Roman", serif;
 }
 
 h1 {
@@ -42,12 +45,11 @@ h1 {
 
 h2 {
     text-transform: uppercase;
+    font-style: italic;
 }
 
 main {
     text-align: center;
-    alignment: center;
-    align-content: center;
 }
 
 section{
@@ -85,12 +87,12 @@ li:before {
     height: 20px;
 }
 
-.pl_link:link {
+.programming_language_link:link {
     color: blue;
     text-decoration: underline;
 }
 
-.pl_link:visited{
+.programming_language_link:visited{
     color: black;
     text-decoration: none;
 }
@@ -98,4 +100,3 @@ li:before {
 a {
     text-decoration: none;
 }
-
