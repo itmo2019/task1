@@ -1,17 +1,18 @@
-* {
-    background-color: lightcyan;
+body {
+    background-color: #e0ffff;
 }
 
 h1 {
     font-size: 30px;
     font-weight: bold;
     font-family: serif;
+    font-stretch: ultra-expanded;
     padding: 1px;
-    color: black;
+    color: #000;
     text-align: center;
 }
 
-article {
+main {
     float: left;
 }
 
@@ -20,12 +21,12 @@ footer {
     text-align: left;
 }
 
-h2 {
+.main_text {
     font-size: 18px;
     font-weight: normal;
     text-align: left;
     font-family: serif;
-    color: black;
+    color: #000;
     font-stretch: normal;
 }
 
@@ -34,43 +35,40 @@ ul {
     list-style-position: outside;
 }
 
-h3 {
-    font-weight: normal;
+.contacts {
     outline-style: dashed;
-    outline-color: darkblue;
+    outline-color: #00008b;
     outline-width: 3px;
     outline-offset: -3px;
+    font-size: 20px;
     padding: 5px;
+    color: #000;
 }
 
-#contacts_info {
+.contacts_info {
     padding-left: 30px;
+    font-family: serif;
+    font-stretch: normal;
 }
 
 p {
     font-size: 18px;
     font-weight: normal;
-    color: black;
+    color: #000;
 }
 
-#practic {
+.practic {
     font-weight: bolder;
 }
 
-#Author_info {
-    font-size: 19px;
-    font-weight: normal;
-    color: darkblue;
-}
-
-#e-mail {
+.e-mail {
     font-family: sans-serif;
     font-size: 18px;
 }
 
-#mod_info {
+.mod_info {
     font-family: sans-serif;
-    color: darkslategrey;
+    color: #2f4f4f;
 }
 
 img {
