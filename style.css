@@ -6,7 +6,7 @@ body {
 header{
     color: brown;
     background: burlywood;
-    font-family: "Franklin Gothic Heavy";
+    font-family: "Franklin Gothic Heavy", sans-serif;
 }
 .letter {
     color: crimson;
@@ -27,11 +27,11 @@ a {
 
 figcaption {
     color: maroon;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", sans-serif;
 }
 
 section {
-    font-family: "Franklin Gothic Book";
+    font-family: "Franklin Gothic Book", sans-serif;
 }
 
 #frame {
@@ -62,13 +62,6 @@ section {
     cursor: e-resize;
 }
 
-marquee {
-    behavior: scroll;
-    direction: left;
-    font-size: 15px;
-    color: darkmagenta;
-}
-
 img {
     box-shadow: -1px -1px 15px grey;
     margin: 10px;
@@ -80,10 +73,12 @@ address {
 
 time {
     color: darkblue;
-    font-family: "Bauhaus 93";
+    font-family: "Bauhaus 93", sans-serif;
 }
 
-
-
-
-
+.list {
+    color: darkcyan;
+    font-family: "Franklin Gothic Heavy", sans-serif;
+    text-decoration: underline;
+    font-size: 17px;
+}
