@@ -17,6 +17,10 @@ small {
     font-size: 5pt;
 }
 
+#head {
+    text-align: center;
+}
+
 #frog {
     background-color: #00FF00;
     opacity: 0.6;
@@ -33,6 +37,12 @@ small {
     opacity: 0.3;
 }
 
+#duckpick {
+    display: inline-block; 
+    vertical-align: middle; 
+    height: 100%;
+}
+
 #monkey {
     background-color: #683421;
     color: yellow;
@@ -44,7 +54,7 @@ small {
 }
 
 #toxic {
-    font-family: 'Arial';
+    font-family: 'Arial', 'Helvetica', sans-serif;
     font-weight: bold;
     color: #B9FF42;
     font-variant: small-caps;
@@ -68,12 +78,7 @@ small {
     margin-right: 1%;
 }
 
-#utochka {
-    max-width: 100%;
-    height: auto;
-}
-
-#golub {
+.bird {
     max-width: 100%;
     height: auto;
 }
@@ -88,9 +93,17 @@ small {
     padding-right: 5px;
 }
 
-#centered {
-    position: absolute;               
-    top: 50%;
+.centeredV {
+    display: flex; 
+    align-items: center;
     left: 1%;
     right: 1%;
+}
+
+.centeredH {
+     text-align: center;
+}
+
+.relative {
+    position: relative;
 }
