@@ -1,13 +1,10 @@
 body {
     background-color: beige;
-    font-size: 14px;
+    font: normal normal 14px serif;
     line-height: 1.5;
-    font-family: serif;
-    font-style: normal;
-    font-weight: normal;
     text-align: left;
     text-decoration: none;
-    text-indent: 2ch;
+    text-indent: 18px;
 }
 
 span {
@@ -46,21 +43,17 @@ ol {
 section {
     margin: 15px;
     padding: 10px;
+    border: 1px black solid;
     border-radius: 20px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
     width: inherit;
     height: max-content;
 }
 
 li {
-    border: 5px;
+    border: 5px goldenrod outset;
+    border-radius: 40px;
     padding: 10px;
     margin: 5px;
-    border-style: outset;
-    border-radius: 40px;
-    border-color: goldenrod;
 }
 
 [href] {
