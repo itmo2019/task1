@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 
-<meta charset=UTF-8>
-<meta name=viewport content="width=device-width, initial-scale=1">
-
 <html>
     <title>Эссе</title>
 
     <head>
         <link rel=stylesheet href=rules.css charset=utf-8>
+        <meta charset=UTF-8>
+        <meta name=viewport content="width=device-width, initial-scale=1">
     </head>
 
     <body style="background: black">
             <section id=item0 class=item>
-                <header class=bar>text #0</header>
+                <h1 class=bar>text #0</h1>
                 <article class=content>
-                    <header onclick="fold0()">click me</header>
+                    <h2 class=header onclick="fold0()">click me</h2>
                     <article>
                         <h3>Предисловие</h3><hr>
                         <p>О фронтэнде у меня очень поверхностные знания. Кроме <code>js</code>, 
@@ -30,9 +29,9 @@
                 </button>
             </section>
             <section id=item1 class=item>
-                <header class=bar>text #1</header>
+                <h1 class=bar>text #1</h1>
                 <article class=content>
-                    <header onclick="fold1()">Чего я жду от курса</header>
+                    <h2 class=header onclick="fold1()">Чего я жду от курса</h2>
                     <article>
                         <p>Я часто на <a href="https://habr.com">Хабре</a>, <a href="https://pikabu.ru">Пикабу</a>
                             видел диспуты и мемасы фронтэндеров: про <code>React</code>, <code>Angular</code>
@@ -48,9 +47,9 @@
                 </button>
             </section>
             <section id=item2 class=item>
-                <header class=bar>text #2</header>
+                <h1 class=bar>text #2</h1>
                 <article class=content>
-                    <header onclick="fold2()">Еще текст</header>
+                    <h2 class=header onclick="fold2()">Еще текст</h2>
                     <article>
                         <p>Не знаю о чем еще писать. Мысль кончилась, а нужно до нормы еще 1 тег <code>html</code> 
                             и штук 20 правил <code>css</code>.</p>
@@ -61,9 +60,9 @@
                 </button>
             </section>
             <section id=item3 class=item>
-                <header class=bar>text #3</header>
+                <h1 class=bar>text #3</h1>
                 <article class=content>
-                    <header onclick="fold3()">sample text</header>
+                    <h2 class=header onclick="fold3()">sample text</h2>
                     <article>
                         Вот еще котик: <br>
                         <pre>
@@ -133,9 +132,9 @@ XXSS2S2222S2222S2S2SSS2SS2SSXXS222oXn2oo2XSXXXXZX2S2XXXSSSS2S2222ooononnnvnvv
                 </button>
             </section>
             <section id=item4 class=item>
-                <header class=bar>text #4</header>
+                <h1 class=bar>text #4</h1>
                 <article class=content>
-                    <header onclick="fold4()">footer</header>
+                    <h2 class=header onclick="fold4()">footer</h2>
                     <article>
                         <footer>
                             auther: Макеев П. <br>
@@ -165,8 +164,8 @@ XXSS2S2222S2222S2S2SSS2SS2SSXXS222oXn2oo2XSXXXXZX2S2XXXSSSS2S2222ooononnnvnvv
         function silent() {
             timer = null;
             quote.textContent = temp;
-            quote.setAttribute("opacity", "null");
-            cat_face.setAttribute("opacity", "null");
+            quote.setAttribute("id", "quote");
+            cat_face.setAttribute("id", "cat-face");
         }
 
         function speak(message) {
@@ -176,8 +175,8 @@ XXSS2S2222S2222S2S2SSS2SS2SSXXS222oXn2oo2XSXXXXZX2S2XXXSSSS2S2222ooononnnvnvv
             }
             temp = quote.textContent;
             quote.textContent = message;
-            quote.setAttribute("opacity", "1.0");
-            cat_face.setAttribute("opacity", "0.2");
+            quote.setAttribute("id", "quote-pronounced");
+            cat_face.setAttribute("id", "cat-face-hidden");
             timer = setTimeout(silent, 3000);
         }
 
@@ -187,23 +186,22 @@ XXSS2S2222S2222S2S2SSS2SS2SSXXS222oXn2oo2XSXXXXZX2S2XXXSSSS2S2222ooononnnvnvv
         function report3() { speak("Не ну это бан"); }
         function report4() { speak("..."); }
 
-        function toggle_cat() {
-            if (cat.getAttribute("jeopardized") == "true") {
-                cat.setAttribute("jeopardized", "false");
+        function toggle(elm, attr, val0, val1) {
+            if (elm.getAttribute(attr) == val0) {
+                elm.setAttribute(attr, val1);
             } else {
-                cat.setAttribute("jeopardized", "true");
+                elm.setAttribute(attr, val0);
             }
+        }
+ 
+        function toggle_cat() {
+            toggle(cat, "id", "cat", "jeopardized-cat");
         }
 
         for (var i = 0; i < 5; i++) {
-            eval(
-                `var item${i} = document.getElementById("item${i}");
+            eval(`var item${i} = document.getElementById("item${i}");
                 function fold${i}() {
-                    if (item${i}.getAttribute("state") == "open") {
-                        item${i}.setAttribute("state", "null");
-                    } else {
-                        item${i}.setAttribute("state", "open");
-                    }
+                    toggle(item${i}, "class", "item", "open-item");
                 }`);
         }
         
