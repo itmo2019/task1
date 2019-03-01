@@ -64,8 +64,8 @@ a, a:visited {
     background-color: red;
 }
 
-.add-offset {
-    margin-left: 25px;
+.span-colorize {
+    color: brown;
 }
 
 nav h2 {
