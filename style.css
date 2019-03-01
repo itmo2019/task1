@@ -2,24 +2,17 @@ body {
     background-image: url("images/back.jpg");
 }
 
-div.content {
-    width: 1500px;
+.content {
+    width: 100%;
     margin: auto;
 }
 
-
-.darkslategray {
-    color: darkslategray;
-}
-
 header {
-    border-style: double;
-    border-color: #8807ff;
     background-color: #ff7d82;
-    border-width: 7px;
+    border: 7px double #8807ff;
 }
 
-img {
+.myImg {
     border-style: dashed;
     width: 400px;
     left: 300px;
@@ -38,16 +31,15 @@ time {
     font-family: Georgia, Georgia, serif;
 }
 
-span{
+.firstLetterColor{
     color: #ff0697;
 }
 
-.pink {
+.mainTextColor {
     color: pink;
 }
 
 h1,h2,h3,h4 {
-    size: auto;
     text-align: center;
     text-shadow: 3px 2px 2px #ff3d0c;
     color: chocolate;
@@ -79,9 +71,9 @@ footer {
     float: left;
 }
 
-p.intro {
+.intro {
     margin-top: 50px;
 }
-p.main {
+.main {
     margin-bottom: 50px;
 }
