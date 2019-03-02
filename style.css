@@ -1,29 +1,27 @@
 header {
     color: #515151;
     text-decoration: underline;
+    text-decoration-color: #3a1b82;
     text-align: center;
-    display: flex;
-    background-color: white;
+    background-color: #fff;
 }
 
 body {
-    animation-name: background-animation;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+    animation: background-animation 2s forwards;
     font-family: serif;
     color: #454545;
     font-size: 16px;
-    margin: 2em auto;
+    margin: 20px auto;
     min-width: 400px;
     max-width: 800px;
-    padding: 1em;
+    padding: 10px;
     line-height: 1.4;
     text-align: justify;
 }
 
 @keyframes background-animation {
-    from {background-color: black;}
-    to {background-color: floralwhite;}
+    from {background-color: #000;}
+    to {background-color: #f0faf0;}
 }
 
 h3 {
@@ -33,8 +31,14 @@ h3 {
     text-indent: -3%;
 }
 
+yandex {
+    color: #ff0000;
+    text-decoration: line-through;
+    text-decoration-color: #111;
+}
+
 .picture-container {
-    display: inline-block;
+    display: flex;
     justify-content: center;
 }
 
@@ -45,7 +49,7 @@ img {
     padding: 5px;
     border-style: solid;
     border-width: 30px;
-    border-color: darkslategrey;
+    border-color: #2f4f4f;
     border-radius: 10px;
     height: 40%;
     width: 40%;
@@ -53,7 +57,7 @@ img {
 
 
 .emphasis {
-    color: blueviolet;
+    color: #8a2be2;
 }
 
 p {
@@ -63,7 +67,7 @@ p {
 footer {
     color: #424242;
     text-align: right;
-    opacity: 90%;
-    background: beige;
+    opacity: 0.9;
+    background: #dcf5dc;
     padding: 5%;
 }
