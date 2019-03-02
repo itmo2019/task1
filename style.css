@@ -1,55 +1,55 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 body {
-    margin: 0;
-    font-weight: 500;
-    font-family: 'HelveticaNeue';
+  margin: 0; 
+  font-weight: 500;
+  font-family: 'HelveticaNeue';
 }
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 500
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 500
 }
 
 nav li {
-    float: left;
+  float: left;
 }
 
 nav a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    background-color: black;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: black;
 }
 
 nav a:hover {
-    background-color: #FFCC4D;
-    color: black;
+  background-color: #FFCC4D;
+  color: black;
 }
 
 section {
-    width: 100%;
-    padding: 0 7%;
-    display: table;
-    margin: 0;
-    max-width: none;
-    height: 100vh;
+   width: 100%;
+   padding: 0 7%;
+   display: table;
+   margin: 0;
+   max-width: none;
+   height: 100vh;
 }
 
 #page1 {
     background-image: url("https://i.imgur.com/yw4hlST.jpg");
-    background-size: cover;
+    background-size: cover; 
 }
 
 #page2 {
@@ -58,7 +58,7 @@ section {
 
 #page3 {
     background-color: #F4900C;
-    color: white;
+    color : white;
 }
 
 .p1 {
@@ -69,11 +69,9 @@ section {
 .table {
     display: table;
 }
-
 .table-row {
     display: table-row;
 }
-
 .table-cell {
     display: table-cell;
     padding: 100px;
@@ -81,42 +79,46 @@ section {
 }
 
 h1 {
-    font-size: 50px;
-    display: block;
-    color: black;
-    font-weight: 600;
+  font-size: 50px;
+  display: block;
+  color: black;
+  font-weight: 600;
 }
 
 h2 {
-    font-size: 45px;
-    font-weight: 500;
+  font-size: 45px;
+  font-weight: 500;
 }
 
 p {
-    font-size: 30px;
-    font-weight: 300;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 footer {
     background-color: #000000;
     padding: 50px;
     margin: 0;
+    color: white;
 }
 
-footer p {
-    color: white;
-    font-size: 20px;
+footer ul li {
+    list-style: none;
+}
+
+footer span {
+  font-size: 20px;
 }
 
 footer a {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 footer a:hover {
-    color: #FFCC4D;
+  color: #FFCC4D;
 }
