@@ -1,49 +1,63 @@
+
+html, body {
+	max-width: 100%;
+}
+
+
 body {
-   	font-size: 1.5em;
-   	color: black;
-   	font-family: Times New Roman;
-	background-color: lightblue;
+   	color: #000;
+   	font-size: 23px;
+   	font-family: 'Times New Roman', serif;
+	background-color: #add8e6;
+}
+
+h1 {
+	text-align: center;
 }
 
 
 #old-projects {
-	margin-right: 30em;
+	margin-right: 700px;
 }
 
 #images {
-	margin-left: 52em;
-	top: 10em;
-	position: absolute;
-	border-color: blue;
-	border-width: 0.1em;
-	border-style: solid;
-	background-color: rgb(208, 112, 112);
-	color: rgb(72, 8, 8);
+	border: 2px solid #000;
+	background-color: #d00707;
+	margin-left: auto;
+	margin-right: 50px;
+	margin-top: -700px;
+	margin-bottom: auto;
+	width: 600px;
+	color: #480808;
 	font-weight: bold;
 }
 
+#figure {
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+	text-align: center;
+}
+
 #conclusion {
-	margin-right: 30em;
-	font-size: 1em;
-	font-family: sans-serif;
-	font-style: italic;
+	margin-right: 700px;
+	font: italic 25px sans-serif;
 	color: navy;
 }
 
 #contact-info {
-	font-size: 1em;
+	font-size: 25px;
+	width: 500px;
 	color: navy;
 	position: relative;
-	margin-left: 70%;
-	margin-top: 0em;
-	margin-bottom: -1em;
-	padding-left: 3em;
-	padding-top: 0.5em;
-	padding-bottom: 0.5em;
-	border-color: blue;
-	border-width: 0.1em;
-	border-style: solid;
-	background-color: rgb(205, 205, 205);
+	margin-right: 20px;
+	margin-left: auto;
+	margin-bottom: -24px;
+	padding-left: 70px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border: 2.3px solid #00f;
+	background-color: #d0d0d0;
 }
 
 
